@@ -1,0 +1,59 @@
+
+
+* { box-sizing: border-box;}  
+body {
+  font-size: 16px;
+    
+}
+
+header, nav, main, footer { 
+  max-width: ______; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th {
+    text-align: left;
+}
+header {}
+header h1 {}
+header img {}
+header .subheading {}
+
+nav {}
+nav button {}
+nav ul {}
+nav ul li {}
+nav ul li a {}
+nav ul li.active a {}
+nav ul li a:hover {}
+
+main {}
+main h2 {}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img {width: 250px; }
+
+footer {}
