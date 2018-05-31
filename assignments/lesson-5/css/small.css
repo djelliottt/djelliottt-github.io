@@ -2,25 +2,41 @@
 
 * { box-sizing: border-box;}  
 body {
-  font-size: 16px;
+  font-size: 16px;  
+    background-color: cadetblue;
     
 }
 
 header, nav, main, footer { 
-  max-width: ______; 
+  max-width:_____; 
 }
-ul {
+header img{float: left;}
+nav{
+    margin-top: 200px;
+}
+nav {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: ;
+    margin-bottom:5px;
+    padding: ;
     overflow: hidden;
     background-color: #333;
 }
-
-li {
-    float: left;
+.info {
+    font-size: 20px;    
 }
 
+.seaplane{
+    float: right;
+    margin-top: -105px;
+}
+.bar {
+    float: left;
+    
+}
+.contact{
+    
+}
 li a {
     display: block;
     color: white;
@@ -38,22 +54,15 @@ table, th, td {
 th {
     text-align: left;
 }
-header {}
-header h1 {}
-header img {}
-header .subheading {}
-
-nav {}
-nav button {}
-nav ul {}
-nav ul li {}
-nav ul li a {}
-nav ul li.active a {}
-nav ul li a:hover {}
-
-main {}
-main h2 {}
+.footer-bar{
+    margin-left: 350px
+}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img {width: 250px; }
+main figure img {
+    width: 250px; 
+    float: right;
+    margin-top: -30px;
+    margin-right: 230px
+}
 
-footer {}
+    

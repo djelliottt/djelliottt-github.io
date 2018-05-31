@@ -9,82 +9,112 @@
 <body>
 
   <header>
+    <section>
+<div>
   <img src="images/weather.jpg" alt="weather symbol">
+</div>
+    </section>
   <h1>Weather Center</h1>
   <h2>Be in the Know</h2>
   </header>
 
-  <nav>
+  <nav class="navigation">
 
     <ul>
-    	<li><a href="#">Home</a></li>
-    	<li><a href="#">Franklin</a></li>
-    	<li><a href="#">Greenville</a></li>
-    	<li><a href="#">Springfield</a></li>
-    	<li><a href="#">Storm Center</a></li>
-    	<li><a href="#">Gallery</a></li>
-    </ul>		
+    	<li class="bar"><a href="#">Home</a></li>
+    	<li class="bar"><a href="#">Franklin</a></li>
+    	<li class="bar"><a href="#">Greenville</a></li>
+    	<li class="bar"><a href="#">Springfield</a></li>
+    	<li class="bar"><a href="#">Storm Center</a></li>
+    	<li class="bar"><a href="#">Gallery</a></li>
+    </ul>
+      
   </nav>
     
   <main>
-     Today’s Weather (as an h2 tag)
-      <ul>
-<li>• High: 90° (Use an unorderes list)</li>
-<li>• Low: 66°</li>
-<li>• Chance of Precipitation: 0%</li>
-<li>• Wind: 5mph from the South West</li>
-      </ul>
-  <figure>
-  	<img src="images/sunny.png" alt="sunny">
+      <h1>Franklin</h1>
+     <h2>Today’s Weather</h2>
+      <figure>
+  	<h2 class="temp"><img src="images/sunny.png" alt="sunny"></h2>
   </figure>
-  
-    <h1>Franklin</h1>
-      <h2>Today's Weather</h2>
-      <table style="width:100%">
-  <tr>
-    <th>Forecast</th>
-    <th>Forecast</th> 
-    <th>Forecast</th>
-  </tr>
-  <tr>
-    <td>89</td>
-    <td>87</td> 
-    <td>88</td>
-  </tr>
-  <tr>
-    <td>78</td>
-    <td>75</td> 
-    <td>74</td>
-  </tr>
-</table>
-      <h2>This day in History</h2>
-        <img src="images/seaplane.jpg" alt="Sea Plane">
       
+ <ul >     
+     <li class="info">High: 90°</li>
+     <br>
+     <li class="info">Low: 66°</li>
+     <br>
+     <li class="info">Chance of Precipitation: 0%</li>
+     <br>
+     <li class="info">Wind: 5mph from the South West</li>
+ </ul>
+    
+      <h2>10 Day Forcast</h2>
+      <div class="forecast">
+    <table>
+	    <thead>
+          <tr>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+            <th>Day 4</th>
+            <th>Day 5</th>
+            <th>Day 6</th>
+            <th>Day 7</th>
+            <th>Day 8</th>
+            <th>Day 9</th>
+            <th>Day 10</th>
+          </tr>
+		</thead>
+        <tbody>  
+          <tr>
+            <td>89°F</td>
+            <td>87°F</td>
+            <td>78°F</td>
+            <td>75°F</td>
+            <td>72°F</td>
+            <td>72°F</td>
+            <td>79°F</td>
+            <td>83°F</td>
+            <td>85°F</td>
+            <td>89°F</td>
+          </tr>
+		</tbody>
+      </table>
+          </div>
+      <br>
+     <br>
+       <br>
+       <br>
+       <br>
+      
+      <h2>This day in History</h2>
+      <div class="seaplane">
+        <img src="images/seaplane.jpg" alt="Sea Plane">
+      </div>
       <p>On this day in history a U.S. Navy seaplane completes the first transatlantic flight.</p>
   </main>
+    <br>
+    <br>
+    <br>
     
   <footer>
-      <section>
+      <section class="one">
       <h3>Address:
-          1234 Awesome Rd
-          Rexburg, ID 83440
+          <P>1234 Awesome Rd</P>
+          <P>Rexburg, ID 83440</P>
           </h3>
-      <p></p>
-      <p></p>
       </section>
       
-      <section>
+      <section class="two">
       <h3>Phone:
-          208-555-2448</h3>
-      <p></p>
-      <p></p>
+          <p>208-555-2448 </p></h3>
       </section>
       
-      <section>
-      <h3>Email:djelliottt@gmail.com</h3>
-      <p></p>
-      <p></p>
+      <section class="three">
+      <h3>Email:
+        <P>djelliottt@gmail.com</P></h3>
       </section>
+      <p class="footer-bar">©2017 All Rights Reserved | Franklin County Weather | May 31, 2017</p>
       
   </footer>
 
