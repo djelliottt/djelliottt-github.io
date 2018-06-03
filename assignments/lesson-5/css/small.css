@@ -7,8 +7,12 @@ body {
     
 }
 
+.forecast {
+    display: none;
+}
+
 header, nav, main, footer { 
-  max-width:_____; 
+  max-width:100%; 
 }
 header img{float: left;}
 nav{
@@ -16,9 +20,8 @@ nav{
 }
 nav {
     list-style-type: none;
-    margin: ;
     margin-bottom:5px;
-    padding: ;
+    padding:10px;
     overflow: hidden;
     background-color: #333;
 }
@@ -65,4 +68,3 @@ main figure img {
     margin-right: 230px
 }
 
-    

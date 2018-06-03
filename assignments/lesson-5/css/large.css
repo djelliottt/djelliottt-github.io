@@ -1,4 +1,9 @@
-@media only screen and (min-width: _____ ) {
+@media only screen and (min-width: ) {
     
   
   }
+
+.forecast {
+        display: block;
+    }
+    

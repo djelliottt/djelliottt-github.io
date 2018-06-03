@@ -1,8 +1,11 @@
-@media only screen and (min-width: ___________) {
+@media only screen and (min-width:414px) {
 
     
     
     nav button { display:none; }  /
     
-    section.forecast { ______ }  
-  }
+    .forecast {
+        display: block;
+    }
+    
+   
