@@ -1,6 +1,6 @@
 
 
-* { box-sizing: border-box;}  
+* { box-sizing:10px border-box:10px;}  
 body {
   font-size: 16px;  
     background-color: cadetblue;
@@ -8,7 +8,7 @@ body {
 }
 @media only screen and (min-width:400px) {
 .forecast {
-    display: none;
+    visibility: hidden;
 }
 }
 header, nav, main, footer { 
