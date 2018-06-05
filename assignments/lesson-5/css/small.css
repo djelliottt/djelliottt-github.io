@@ -22,13 +22,16 @@ nav {
     overflow: hidden;
     background-color: #333;
 }
+
+.hero{
+    width: 100%
+}
 .info {
     font-size: 20px;    
 }
 
 .seaplane{
     float: right;
-    margin-top: -105px;
 }
 .bar {
     float: left;
@@ -54,9 +57,7 @@ table, th, td {
 th {
     text-align: left;
 }
-.footer-bar{
-    margin-left: 350px
-}
+
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img {
     width: 250px; 
@@ -64,7 +65,19 @@ main figure img {
     margin-top: -30px;
     margin-right: 230px
 }
+.clear{
+    clear: both;
+}
 
+#footer{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+}
 
+.footer-bar{
+    margin-left: 350px;
+
+}
 
 
