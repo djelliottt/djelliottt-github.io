@@ -2,8 +2,6 @@
 
     nav button { display:none; }
     
-    .forecast {
-        display: block;
-    }
+   #forecast .forecast {display: block; }
     
 }

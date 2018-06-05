@@ -1,7 +1,6 @@
-@media screen and (min-width:300px){
-    .forecast { display: none;}
-}
- 
+
+  .forecast { display: none;}
+
 body {
   font-size: 16px;  
     background-color: cadetblue;
@@ -24,7 +23,7 @@ nav {
 }
 
 .hero{
-    width: 100%
+    width: 100%;
 }
 .info {
     font-size: 20px;    
@@ -37,9 +36,7 @@ nav {
     float: left;
     
 }
-.contact{
-    
-}
+
 li a {
     display: block;
     color: white;
@@ -63,7 +60,7 @@ main figure img {
     width: 250px; 
     float: right;
     margin-top: -30px;
-    margin-right: 230px
+    margin-right: 230px;
 }
 .clear{
     clear: both;
