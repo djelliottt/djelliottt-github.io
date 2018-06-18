@@ -1,0 +1,77 @@
+
+  .forecast { display: none;}
+
+body {
+  font-size: 16px;  
+    background-color: cadetblue;
+    
+}
+
+header, nav, main, footer { 
+  max-width:100%; 
+}
+header img{float: left;}
+nav{
+    margin-top: 200px;
+}
+nav {
+    list-style-type: none;
+    margin-bottom:5px;
+    padding:10px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.hero{
+    width: 100%;
+}
+.info {
+    font-size: 20px;    
+}
+
+.seaplane{
+    float: right;
+}
+.bar {
+    float: left;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th {
+    text-align: left;
+}
+
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img {
+    width: 250px; 
+    float: right;
+    margin-top: -30px;
+    margin-right: 230px;
+}
+.clear{
+    clear: both;
+}
+
+#footer{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+}
+
+.temp {
+    margin-left: 100px
+}
