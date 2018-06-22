@@ -15,3 +15,7 @@ weatherObject.onload = function () {
     var icon_path = "//openweathermap.org/img/w/" + iconcode + ".png";
     document.getElementById('weather_icon').src = icon_path;
 }
+
+x = myTrip.temples[3];
+
+var myTrip = { "month":"July","year":"2015","Temples":["Logan","Bountiful","Manti","Draper","St. George","Cedar City"]}
