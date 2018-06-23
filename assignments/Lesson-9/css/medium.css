@@ -1,0 +1,7 @@
+@media screen and (min-width: 700px) {
+
+    nav button { display:none; }
+    
+ .forecast {display: block; }
+    
+}
