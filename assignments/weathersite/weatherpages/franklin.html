@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Franklin Weather</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../css/small.css">
+    <link rel="stylesheet" href="../css/medium.css">
+    <link rel="stylesheet" href="../css/large.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <img src="../images/weather.jpg" alt="weather symbol">
+        </div>
+        <h1>Weather Center</h1>
+        <h2>Be in the Know</h2>
+    </header>
+
+    <nav class="navigation">
+
+        <ul>
+            <li class="bar"><a href="weatherhomepage.html">Home</a></li>
+            <li class="bar"><a href="franklin.html">Franklin</a></li>
+            <li class="bar"><a href="greenville.html">Greenville</a></li>
+            <li class="bar"><a href="springfield.html">Springfield</a></li>
+            <li class="bar"><a href="stormcenter.html">Storm Center</a></li>
+            <li class="bar"><a href="gallery.html">Gallery</a></li>
+        </ul>
+
+    </nav>
+    <div>
+        <img class="hero" src="../images/hero.jpeg" alt="Hero Image">
+    </div>
+    <main>
+        <h1>Franklin</h1>
+        <h2>Today’s Weather</h2>
+
+
+
+        <section class="weather">
+            <h2>Today's Weather</h2>
+            <div class="todayw">
+                <ul>
+                    <li>Description: <span id="weadesc">sunny</span></li>
+                    <li>Current Temperature: <span id="currtemp">00</span></li>
+                    <li>High: <span id="hightemp">90</span>&deg;F</li>
+                    <li>Low: <span id="lowtemp">66</span>&deg;F</li>
+                    <li>Chance of Precipitation: <span id="chanceprec">0</span>&#37;</li>
+                    <li>Wind Speed: <span id="wspeed">00</span> mph from the South-West</li>
+                    <li>Windchill: <span id="windchill">5</span>&deg;F</li>
+                </ul>
+                <img src="images/placeholder.png" alt="current weather" id="weather_icon">
+            </div>
+
+        </section>
+
+        <div class="forecast">
+            <h2>10 Day Forcast</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                        <th>Day 6</th>
+                        <th>Day 7</th>
+                        <th>Day 8</th>
+                        <th>Day 9</th>
+                        <th>Day 10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>89°F</td>
+                        <td>87°F</td>
+                        <td>78°F</td>
+                        <td>75°F</td>
+                        <td>72°F</td>
+                        <td>72°F</td>
+                        <td>79°F</td>
+                        <td>83°F</td>
+                        <td>85°F</td>
+                        <td>89°F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section>
+            <h2>This day in History</h2>
+            <div class="seaplane">
+                <img src="../images/seaplane.jpg" alt="Sea Plane">
+            </div>
+            <p>On this day in history a U.S. Navy seaplane completes the first transatlantic flight.</p>
+        </section>
+    </main>
+    <br>
+    <br>
+    <br>
+
+    <footer class="clear">
+        <div id="footer">
+            <section>
+                <h3>Address:</h3>
+                <P>1234 Awesome Rd</P>
+                <P>Rexburg, ID 83440</P>
+
+            </section>
+
+            <section>
+                <h3>Phone:</h3>
+                <p>208-555-2448 </p>
+            </section>
+
+            <section>
+                <h3>Email:</h3>
+                <P>djelliottt@gmail.com</P>
+            </section>
+        </div>
+        <p class="footer-bar">©2017 All Rights Reserved | Franklin County Weather | <span id="currentdate"></span></p>
+        <script src="../js/weather.js"></script>
+        <script src="../js/currentdate.js"></script>
+    </footer>
+
+</body>
+
+</html>
