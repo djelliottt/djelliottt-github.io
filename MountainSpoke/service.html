@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Mountain Spoke</title>
+    <meta name="home page" content="adventure tours page for The Mountain Spoke website">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <link href="styles/tablebuild.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="clearfix">
+
+        <h1>The Mountain Spoke</h1>
+
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleNavMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sales.html">Sales</a></li>
+            <li class="active"><a href="#active">Service</a></li>
+            <li><a href="event.html">Events</a></li>
+            <li><a href="tours.html">Adventure Tours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <figure>
+            <img src="images/mainhero.jpg" alt="Main Page Image" srcset="images/mainherosmall.jpg 500w, 
+                   images/mainHeroMedium.jpg 800w, 
+                   images/mainherolarge.jpg 1100w">
+        </figure>
+        <div>
+            <section>
+                <h3>Need Repairs? We got you!</h3>
+            </section>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">The Mountain Spoke Services</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Service</th>
+                    <th>Cost</th>
+                </tr>
+                <tr>
+                    <td>Gear/brake tuning</td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td>Tube replacement</td>
+                    <td>$25</td>
+                </tr>
+                <tr>
+                    <td>Gear/brake cable replacement</td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Tire Replacement</td>
+                    <td>$22</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Provided by The Mountain Spoke Services 2018</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+    </main>
+    <footer class="clearfix">
+        <aside>
+            <p> The Mountain Spoke</p>
+            <p> Bozeman, MT</p>
+            <p> (555) 555-1122 </p>
+            <p> customer@themountainspoke.com</p>
+        </aside>
+        <p class="footer-bar">&copy;2018 All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span></p>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+</body>
+
+</html>

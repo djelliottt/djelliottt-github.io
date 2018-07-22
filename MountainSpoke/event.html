@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Mountain Spoke</title>
+    <meta name="events page" content="Events page for The Mountain Spoke website">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="clearfix">
+        <h1>The Mountain Spoke</h1>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleNavMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sales.html">Sales</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li class="active"><a href="#active">Events</a></li>
+            <li><a href="tours.html">Adventure Tours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <figure>
+            <img src="images/mainhero.jpg" alt="Main Page Image" srcset="images/mainherosmall.jpg 500w, 
+                   images/mainHeroMedium.jpg 800w, 
+                   images/mainherolarge.jpg 1100w">
+        </figure>
+        <div>
+            <section>
+                <br><br>
+                <h3>Event: "Ride the Rockies"</h3>
+                <p>Dates: Auguest 1-2 <br> Route: Rexburg to Tetonia <br> Price: $30
+                </p>
+            </section>
+        </div>
+        <div>
+            <div id="content" class="clearfix">
+                <form>
+                    <fieldset>
+                        <legend><span>Please Tell Us About Yourself</span></legend>
+                        <label><span>Full Name:</span><input name="fullname" type="text" value="" pattern="[a-zA-Z ]{5,99}" required ></label>
+                        <label><span>Email:</span><input name="email" type="email" value="" placeholder="johnhancock@email.com"></label>
+                        <label><span>Phone Number:</span><input name="phonenumber" type="tel" value="" required ></label>
+                        <label><span>Date of birth:</span><input name="birthdate" type="date" value=""></label>
+                        <label><span>Home State:</span><input name="fullname" type="text" value="" pattern="[a-zA-Z ]{5,99}" required ></label>
+                    </fieldset>
+                    <fieldset>
+                        <label><span>Comments:</span>
+    </label>
+                        <textarea rows="7" cols="50" name="comment" form="usrform"></textarea><br>
+                    </fieldset>
+                    <input type="submit" value="Register" class="subtmitBtn">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="clearfix">
+        <aside>
+            <p> The Mountain Spoke</p>
+            <p> Bozeman, MT</p>
+            <p> (555) 555-2211 </p>
+            <p> customer@themountainspoke.com</p>
+        </aside>
+        <p class="footer-bar">&copy;2018 All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span></p>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+</body>
+
+</html>
