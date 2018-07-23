@@ -207,14 +207,6 @@ input[type=submit]:hover {
     background-color: #F76E09;
 }
 
-.container {
-    border-radius: 6px;
-    background-color: #f2f2f2;
-    padding: 22px;
-    width: 82%;
-    margin-left: 14%;
-    margin-right: 14%;
-}
 
 .pana-accordion {
     width: 800px;
