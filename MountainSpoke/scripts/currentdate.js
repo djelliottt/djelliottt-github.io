@@ -1,27 +1,27 @@
 var d = new Date();
-var weekday = new Array(7);
-weekday[0] = "Sunday";
-weekday[1] = "Monday";
-weekday[2] = "Tuesday";
-weekday[3] = "Wednesday";
-weekday[4] = "Thursday";
-weekday[5] = "Friday";
-weekday[6] = "Saturday";
+var day = new Array(7);
+day[0] = "Sunday";
+day[1] = "Monday";
+day[2] = "Tuesday";
+day[3] = "Wednesday";
+day[4] = "Thursday";
+day[5] = "Friday";
+day[6] = "Saturday";
 
 
-var monthname = new Array(12);
-monthname[0] = "January";
-monthname[1] = "February";
-monthname[2] = "March";
-monthname[3] = "April";
-monthname[4] = "May";
-monthname[5] = "June";
-monthname[6] = "July";
-monthname[7] = "August";
-monthname[8] = "September";
-monthname[9] = "October";
-monthname[10] = "November";
-monthname[11] = "December";
+var month = new Array(12);
+month[0] = "January";
+month[1] = "February";
+month[2] = "March";
+month[3] = "April";
+month[4] = "May";
+month[5] = "June";
+month[6] = "July";
+month[7] = "August";
+month[8] = "September";
+month[9] = "October";
+month[10] = "November";
+month[11] = "December";
 
 
-document.getElementById("currentdate").innerHTML = weekday[d.getDay()] + ", " + d.getDate() + " " + monthname[d.getMonth()] + " " + d.getFullYear();
+document.getElementById("currentdate").innerHTML = day[d.getDay()] + ", " + d.getDate() + " " + month[d.getMonth()] + " " + d.getFullYear();
