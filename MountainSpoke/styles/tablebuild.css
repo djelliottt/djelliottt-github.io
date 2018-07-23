@@ -1,6 +1,6 @@
 body main {
-    font-size: 14px;
-    line-height: 32px;
+    font-size: 12px;
+    line-height: 33px;
     font-family: Ubuntu, sans-serif;
     text-align: center;
 
@@ -23,7 +23,7 @@ table {
 table,
 th,
 td {
-    border: 1px solid lightgray;
+    border: 1px solid black;
     padding-top: 0;
     padding-bottom: 0;
 }
@@ -31,7 +31,7 @@ td {
 thead {
 
     background-color: #F4690A;
-    font-size: 20px;
+    font-size: 22px;
 
 }
 
@@ -41,7 +41,7 @@ tbody {
 
 tfoot {
     background-color: #F5CB91;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 tbody tr:nth-child(odd) {
@@ -52,7 +52,7 @@ tbody tr:nth-child(1) {
     background-color: #E19021;
     color: white;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 tbody tr:nth-child(5) td:nth-child(3) {
