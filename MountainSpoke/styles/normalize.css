@@ -1,4 +1,3 @@
-
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
@@ -158,30 +157,23 @@ textarea {
     /* 2 */
 }
 
-
 [type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
-
 
 ::-webkit-file-upload-button {
     -webkit-appearance: button;
 
     font: inherit;
-
 }
-
-
 
 details {
     display: block;
 }
 
-
 summary {
     display: list-item;
 }
-
 
 template {
     display: none;
