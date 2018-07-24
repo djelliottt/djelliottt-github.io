@@ -22,10 +22,6 @@ header {
     padding-bottom: 0;
 }
 
-.wrapbutton {
-    overflow: hidden;
-}
-
 nav button {
     float: right;
     background-color: transparent;
@@ -206,7 +202,6 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #F76E09;
 }
-
 
 .pana-accordion {
     width: 800px;
